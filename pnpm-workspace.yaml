@@ -1,7 +1,7 @@
 enableGlobalVirtualStore: true
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.2.2
-  vite-plus: 0.2.2
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fcca21bee9fa82419c9d0d85541393bf7dd2cace
+  vite-plus: 0.0.0-commit.fcca21bee9fa82419c9d0d85541393bf7dd2cace
 overrides:
   vite: "catalog:"
 peerDependencyRules:
