@@ -1,7 +1,7 @@
 enableGlobalVirtualStore: true
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fcca21bee9fa82419c9d0d85541393bf7dd2cace
-  vite-plus: 0.0.0-commit.fcca21bee9fa82419c9d0d85541393bf7dd2cace
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d
+  vite-plus: 0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d
 overrides:
   vite: "catalog:"
 peerDependencyRules:
@@ -9,3 +9,14 @@ peerDependencyRules:
     - vite
   allowedVersions:
     vite: "*"
+minimumReleaseAgeExclude:
+  - '@voidzero-dev/vite-plus-core@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d'
+  - vite-plus@0.0.0-commit.3a79c350a1c28c9f491c7c4642e42ed426dda78d
